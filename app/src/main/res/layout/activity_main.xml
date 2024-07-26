@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" DAY O1 Toast Messege"
+        android:layout_gravity="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/BtnDownload"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Download"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:elevation="12dp"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:id="@+id/BtnUpload"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:elevation="12dp"
+        android:layout_margin="30dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
